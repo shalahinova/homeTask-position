@@ -1,0 +1,138 @@
+@font-face {
+    font-family: 'arvobold';
+    src: url('../fonts/arvobold.eot');
+    src: url('../fonts/arvobold.eot') format('embedded-opentype'),
+    url('../fonts/arvobold.woff2') format('woff2'),
+    url('../fonts/arvobold.woff') format('woff'),
+    url('../fonts/arvobold.ttf') format('truetype'),
+    url('../fonts/arvobold.svg#arvobold') format('svg');
+}
+
+@font-face {
+    font-family: 'arvo';
+    src: url('../fonts/arvo.eot');
+    src: url('../fonts/arvo.eot') format('embedded-opentype'),
+    url('../fonts/arvo.woff2') format('woff2'),
+    url('../fonts/arvo.woff') format('woff'),
+    url('../fonts/arvo.ttf') format('truetype'),
+    url('../fonts/arvo.svg#arvo') format('svg');
+}
+
+
+body {
+    background: #3f0002 url('../images/pizza.png') no-repeat;
+}
+
+header {
+    height: 40px;
+    background-color: #af2024;
+    margin-bottom: 20px;
+}
+
+.containerMain {
+    width: 960px;
+    margin: 0 auto;
+
+}
+
+.containerVideo {
+    width: 709px;
+    margin: 0 auto;
+    background-color: white;
+    padding-top: 60px;
+}
+
+.mainVideo {
+    position: relative;
+    top: 30px;
+}
+
+.title {
+    width: 709px;
+    margin: 0 auto;
+    background-color: #98161b;
+}
+
+h2 {
+    color: white;
+    font-size: 20px;
+    margin: 0;
+    padding: 20px;
+    font-family: 'arvobold';
+}
+
+.video {
+    background-color: #e7e7e7;
+    width: 567px;
+    height: 367px;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.playButton {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -30px;
+    margin-left: -30px;
+}
+
+.description {
+    padding: 0 70px 126px;
+}
+
+h3 {
+    color: #98161b;
+    font-size: 13px;
+    font-family: 'arvobold';
+}
+
+p {
+    color: #98161b;
+    font-size: 12px;
+    font-family: 'arvo';
+}
+
+span {
+    color: #7d7d7d;
+}
+
+h3:after {
+    content: ". . . . . . . . . .";
+    display: block;
+}
+
+.fa-play {
+    color: #98161b;
+    font-size: 60px;
+}
+
+.socialIcon {
+    position: fixed;
+    top: 223px;
+    right: 0;
+    z-index: 1;
+}
+
+.fa-facebook-f, .fa-twitter {
+    color: white;
+    font-size: 30px;
+}
+
+.icon1 .fa-square-full {
+    color: #850409;
+}
+
+.icon2 .fa-square-full {
+    color: #98161b;
+}
+
+
+footer {
+    background-color: black;
+    height: 250px;
+}
+
+
+
